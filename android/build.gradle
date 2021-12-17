@@ -21,13 +21,13 @@ android {
 
 repositories {
     maven {
-        url "https://dl.bintray.com/ironsource-mobile/android-sdk"
+        url "https://android-sdk.is.com/"
     }
 }
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.ironsource.sdk:mediationsdk:7.+'
+    implementation 'com.ironsource.sdk:mediationsdk:7.1.13'
     implementation 'androidx.annotation:annotation:+'
     implementation 'com.google.android.gms:play-services-ads-identifier:17.0.0'
     implementation 'com.google.android.gms:play-services-basement:17.1.1'
